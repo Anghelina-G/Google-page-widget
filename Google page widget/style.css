@@ -1,0 +1,43 @@
+body{
+    background-color: #333333;
+}
+a{
+    text-decoration: none;
+}
+/* WIDGET SYLES*/
+
+.widget{
+    color: #eeeeee;
+    display:block;
+    padding: 10px;
+    width: 90px;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.widget:hover{
+    background-color: #444444;
+    color: white;
+}
+.widget img{
+    background-color: #bbbbbb;
+    border-radius: 100%;
+    padding: 5px;
+}
+.widget h5{
+    margin: 0;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.widget::after{
+    color: #333333;
+    content:"\2838";
+    float: right;
+    margin-top: -80px;
+    transition: 0.3s;
+}
+.widget:hover::after{
+    color: white;
+    transition-delay: 1s;
+}
